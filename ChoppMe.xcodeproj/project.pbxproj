@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1438F1219E0C170016822E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F1438F0219E0C170016822E /* GoogleService-Info.plist */; };
+		0F305EAE219E081700506393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F305EAD219E081700506393 /* AppDelegate.swift */; };
+		0F305EB3219E081700506393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F305EB1219E081700506393 /* Main.storyboard */; };
+		0F305EB5219E081800506393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F305EB4219E081800506393 /* Assets.xcassets */; };
+		0F305EB8219E081800506393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F305EB6219E081800506393 /* LaunchScreen.storyboard */; };
+		0F305EC3219E081800506393 /* ChoppMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F305EC2219E081800506393 /* ChoppMeTests.swift */; };
+		0F305ECE219E081800506393 /* ChoppMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F305ECD219E081800506393 /* ChoppMeUITests.swift */; };
+		0F55560721E3ADA900689556 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55560621E3ADA900689556 /* LoginVC.swift */; };
+		0F55560921E3ADD900689556 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F55560821E3ADD900689556 /* Login.storyboard */; };
+		0F55560B21E3F0F000689556 /* Pub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55560A21E3F0F000689556 /* Pub.swift */; };
+		0FBD0F9021E0F9AF003C358E /* PierService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD0F8F21E0F9AF003C358E /* PierService.swift */; };
+		0FBD0F9221E15DDD003C358E /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD0F9121E15DDD003C358E /* LoginService.swift */; };
+		0FC38AA821E512B800C32AD0 /* PubVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC38AA721E512B800C32AD0 /* PubVM.swift */; };
+		0FD25E1A21CEAA9100E4E88A /* Satellite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD25E1921CEAA9100E4E88A /* Satellite.swift */; };
+		0FD25E1D21CEAB1F00E4E88A /* SatelliteVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD25E1C21CEAB1F00E4E88A /* SatelliteVM.swift */; };
+		0FD25E1F21CEBEFB00E4E88A /* Pier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD25E1E21CEBEFB00E4E88A /* Pier.swift */; };
+		0FD25E2121CEBF4900E4E88A /* PierVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD25E2021CEBF4900E4E88A /* PierVM.swift */; };
+		0FD25E2421CECCC800E4E88A /* PierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD25E2321CECCC800E4E88A /* PierVC.swift */; };
+		0FD3E50C21E3F68B00616993 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3E50B21E3F68B00616993 /* Extensions.swift */; };
+		5AA0402BD6961D14B65E2116 /* Pods_ChoppMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816D9C727D365CB2EA28B1A3 /* Pods_ChoppMeTests.framework */; };
+		6619412BE6E1E695C3A908E9 /* Pods_ChoppMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC931E79AAF175BB53858C71 /* Pods_ChoppMeUITests.framework */; };
+		780DCFECD7943220B12BB3C0 /* Pods_ChoppMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD98021A973E7777692FE48A /* Pods_ChoppMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F305EBF219E081800506393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F305EA2219E081700506393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F305EA9219E081700506393;
+			remoteInfo = ChoppMe;
+		};
+		0F305ECA219E081800506393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F305EA2219E081700506393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F305EA9219E081700506393;
+			remoteInfo = ChoppMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B51FE8110F23E76E0FA72B /* Pods-ChoppMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppMeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppMeUITests/Pods-ChoppMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F1438F0219E0C170016822E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F305EAA219E081700506393 /* ChoppMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoppMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F305EAD219E081700506393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F305EB2219E081700506393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F305EB4219E081800506393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F305EB7219E081800506393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F305EB9219E081800506393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F305EBE219E081800506393 /* ChoppMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoppMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F305EC2219E081800506393 /* ChoppMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoppMeTests.swift; sourceTree = "<group>"; };
+		0F305EC4219E081800506393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F305EC9219E081800506393 /* ChoppMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoppMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F305ECD219E081800506393 /* ChoppMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoppMeUITests.swift; sourceTree = "<group>"; };
+		0F305ECF219E081800506393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F55560621E3ADA900689556 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0F55560821E3ADD900689556 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		0F55560A21E3F0F000689556 /* Pub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pub.swift; sourceTree = "<group>"; };
+		0FBD0F8F21E0F9AF003C358E /* PierService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PierService.swift; sourceTree = "<group>"; };
+		0FBD0F9121E15DDD003C358E /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		0FC38AA721E512B800C32AD0 /* PubVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubVM.swift; sourceTree = "<group>"; };
+		0FD25E1921CEAA9100E4E88A /* Satellite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satellite.swift; sourceTree = "<group>"; };
+		0FD25E1C21CEAB1F00E4E88A /* SatelliteVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteVM.swift; sourceTree = "<group>"; };
+		0FD25E1E21CEBEFB00E4E88A /* Pier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pier.swift; sourceTree = "<group>"; };
+		0FD25E2021CEBF4900E4E88A /* PierVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PierVM.swift; sourceTree = "<group>"; };
+		0FD25E2321CECCC800E4E88A /* PierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PierVC.swift; sourceTree = "<group>"; };
+		0FD3E50B21E3F68B00616993 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1F22F00F0371B1E04828A638 /* Pods-ChoppMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppMeTests/Pods-ChoppMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E1B0DE415E5950DCFDAA68E /* Pods-ChoppMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppMeUITests/Pods-ChoppMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		749F52BDCF8FC4DC19ABC308 /* Pods-ChoppMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppMeTests/Pods-ChoppMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		816D9C727D365CB2EA28B1A3 /* Pods_ChoppMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoppMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C2C683AE6C392900639639 /* Pods-ChoppMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppMe/Pods-ChoppMe.release.xcconfig"; sourceTree = "<group>"; };
+		B7C18ACE99B21D94ACBD400B /* Pods-ChoppMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppMe/Pods-ChoppMe.debug.xcconfig"; sourceTree = "<group>"; };
+		BD98021A973E7777692FE48A /* Pods_ChoppMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoppMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC931E79AAF175BB53858C71 /* Pods_ChoppMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoppMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F305EA7219E081700506393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780DCFECD7943220B12BB3C0 /* Pods_ChoppMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F305EBB219E081800506393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA0402BD6961D14B65E2116 /* Pods_ChoppMeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F305EC6219E081800506393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6619412BE6E1E695C3A908E9 /* Pods_ChoppMeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F305EA1219E081700506393 = {
+			isa = PBXGroup;
+			children = (
+				0F305EAC219E081700506393 /* ChoppMe */,
+				0F305EC1219E081800506393 /* ChoppMeTests */,
+				0F305ECC219E081800506393 /* ChoppMeUITests */,
+				0F305EAB219E081700506393 /* Products */,
+				B6AC1B402AD1BBBC567004E8 /* Pods */,
+				89CB3335FA14BC442CB6B26E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F305EAB219E081700506393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F305EAA219E081700506393 /* ChoppMe.app */,
+				0F305EBE219E081800506393 /* ChoppMeTests.xctest */,
+				0F305EC9219E081800506393 /* ChoppMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F305EAC219E081700506393 /* ChoppMe */ = {
+			isa = PBXGroup;
+			children = (
+				0FD25E1B21CEAB0200E4E88A /* ViewModels */,
+				0F31A6FC21BC1EBE00775835 /* Services */,
+				0F96BBE0219E115300D49C73 /* Models */,
+				0F96BBE3219E116500D49C73 /* Controllers */,
+				0F96BBE2219E116100D49C73 /* Base */,
+				0F96BBDF219E0FCC00D49C73 /* General */,
+				0F1438F0219E0C170016822E /* GoogleService-Info.plist */,
+				0F305EB9219E081800506393 /* Info.plist */,
+				0F96BBE1219E115B00D49C73 /* Utils */,
+			);
+			path = ChoppMe;
+			sourceTree = "<group>";
+		};
+		0F305EC1219E081800506393 /* ChoppMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F305EC2219E081800506393 /* ChoppMeTests.swift */,
+				0F305EC4219E081800506393 /* Info.plist */,
+			);
+			path = ChoppMeTests;
+			sourceTree = "<group>";
+		};
+		0F305ECC219E081800506393 /* ChoppMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F305ECD219E081800506393 /* ChoppMeUITests.swift */,
+				0F305ECF219E081800506393 /* Info.plist */,
+			);
+			path = ChoppMeUITests;
+			sourceTree = "<group>";
+		};
+		0F31A6FC21BC1EBE00775835 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0FBD0F8F21E0F9AF003C358E /* PierService.swift */,
+				0FBD0F9121E15DDD003C358E /* LoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0F96BBDF219E0FCC00D49C73 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				0F305EAD219E081700506393 /* AppDelegate.swift */,
+				0F305EB4219E081800506393 /* Assets.xcassets */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		0F96BBE0219E115300D49C73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FD25E1921CEAA9100E4E88A /* Satellite.swift */,
+				0FD25E1E21CEBEFB00E4E88A /* Pier.swift */,
+				0F55560A21E3F0F000689556 /* Pub.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F96BBE1219E115B00D49C73 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0FD3E50B21E3F68B00616993 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0F96BBE2219E116100D49C73 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0F305EB1219E081700506393 /* Main.storyboard */,
+				0F305EB6219E081800506393 /* LaunchScreen.storyboard */,
+				0F55560821E3ADD900689556 /* Login.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0F96BBE3219E116500D49C73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FD25E2321CECCC800E4E88A /* PierVC.swift */,
+				0F55560621E3ADA900689556 /* LoginVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0FD25E1B21CEAB0200E4E88A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0FD25E1C21CEAB1F00E4E88A /* SatelliteVM.swift */,
+				0FD25E2021CEBF4900E4E88A /* PierVM.swift */,
+				0FC38AA721E512B800C32AD0 /* PubVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		89CB3335FA14BC442CB6B26E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD98021A973E7777692FE48A /* Pods_ChoppMe.framework */,
+				816D9C727D365CB2EA28B1A3 /* Pods_ChoppMeTests.framework */,
+				CC931E79AAF175BB53858C71 /* Pods_ChoppMeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6AC1B402AD1BBBC567004E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7C18ACE99B21D94ACBD400B /* Pods-ChoppMe.debug.xcconfig */,
+				B2C2C683AE6C392900639639 /* Pods-ChoppMe.release.xcconfig */,
+				1F22F00F0371B1E04828A638 /* Pods-ChoppMeTests.debug.xcconfig */,
+				749F52BDCF8FC4DC19ABC308 /* Pods-ChoppMeTests.release.xcconfig */,
+				05B51FE8110F23E76E0FA72B /* Pods-ChoppMeUITests.debug.xcconfig */,
+				6E1B0DE415E5950DCFDAA68E /* Pods-ChoppMeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F305EA9219E081700506393 /* ChoppMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F305ED2219E081800506393 /* Build configuration list for PBXNativeTarget "ChoppMe" */;
+			buildPhases = (
+				44B881C5F4A10C0DBBFF3FE4 /* [CP] Check Pods Manifest.lock */,
+				0F305EA6219E081700506393 /* Sources */,
+				0F305EA7219E081700506393 /* Frameworks */,
+				0F305EA8219E081700506393 /* Resources */,
+				B228971CE082EC7E4581541C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChoppMe;
+			productName = ChoppMe;
+			productReference = 0F305EAA219E081700506393 /* ChoppMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F305EBD219E081800506393 /* ChoppMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F305ED5219E081800506393 /* Build configuration list for PBXNativeTarget "ChoppMeTests" */;
+			buildPhases = (
+				04FC0064533372A795BB24BF /* [CP] Check Pods Manifest.lock */,
+				0F305EBA219E081800506393 /* Sources */,
+				0F305EBB219E081800506393 /* Frameworks */,
+				0F305EBC219E081800506393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F305EC0219E081800506393 /* PBXTargetDependency */,
+			);
+			name = ChoppMeTests;
+			productName = ChoppMeTests;
+			productReference = 0F305EBE219E081800506393 /* ChoppMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F305EC8219E081800506393 /* ChoppMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F305ED8219E081800506393 /* Build configuration list for PBXNativeTarget "ChoppMeUITests" */;
+			buildPhases = (
+				47E533DB17957B460F8B53EF /* [CP] Check Pods Manifest.lock */,
+				0F305EC5219E081800506393 /* Sources */,
+				0F305EC6219E081800506393 /* Frameworks */,
+				0F305EC7219E081800506393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F305ECB219E081800506393 /* PBXTargetDependency */,
+			);
+			name = ChoppMeUITests;
+			productName = ChoppMeUITests;
+			productReference = 0F305EC9219E081800506393 /* ChoppMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F305EA2219E081700506393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Rodrigo de Sousa Santos";
+				TargetAttributes = {
+					0F305EA9219E081700506393 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0F305EBD219E081800506393 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0F305EA9219E081700506393;
+					};
+					0F305EC8219E081800506393 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0F305EA9219E081700506393;
+					};
+				};
+			};
+			buildConfigurationList = 0F305EA5219E081700506393 /* Build configuration list for PBXProject "ChoppMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F305EA1219E081700506393;
+			productRefGroup = 0F305EAB219E081700506393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F305EA9219E081700506393 /* ChoppMe */,
+				0F305EBD219E081800506393 /* ChoppMeTests */,
+				0F305EC8219E081800506393 /* ChoppMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F305EA8219E081700506393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F305EB8219E081800506393 /* LaunchScreen.storyboard in Resources */,
+				0F1438F1219E0C170016822E /* GoogleService-Info.plist in Resources */,
+				0F305EB5219E081800506393 /* Assets.xcassets in Resources */,
+				0F55560921E3ADD900689556 /* Login.storyboard in Resources */,
+				0F305EB3219E081700506393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F305EBC219E081800506393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F305EC7219E081800506393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04FC0064533372A795BB24BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoppMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44B881C5F4A10C0DBBFF3FE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoppMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47E533DB17957B460F8B53EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoppMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B228971CE082EC7E4581541C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChoppMe/Pods-ChoppMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoppMe/Pods-ChoppMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F305EA6219E081700506393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD25E1D21CEAB1F00E4E88A /* SatelliteVM.swift in Sources */,
+				0FD25E1F21CEBEFB00E4E88A /* Pier.swift in Sources */,
+				0FD25E2421CECCC800E4E88A /* PierVC.swift in Sources */,
+				0F55560721E3ADA900689556 /* LoginVC.swift in Sources */,
+				0FBD0F9221E15DDD003C358E /* LoginService.swift in Sources */,
+				0F55560B21E3F0F000689556 /* Pub.swift in Sources */,
+				0FD3E50C21E3F68B00616993 /* Extensions.swift in Sources */,
+				0F305EAE219E081700506393 /* AppDelegate.swift in Sources */,
+				0FBD0F9021E0F9AF003C358E /* PierService.swift in Sources */,
+				0FD25E1A21CEAA9100E4E88A /* Satellite.swift in Sources */,
+				0FC38AA821E512B800C32AD0 /* PubVM.swift in Sources */,
+				0FD25E2121CEBF4900E4E88A /* PierVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F305EBA219E081800506393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F305EC3219E081800506393 /* ChoppMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F305EC5219E081800506393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F305ECE219E081800506393 /* ChoppMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F305EC0219E081800506393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F305EA9219E081700506393 /* ChoppMe */;
+			targetProxy = 0F305EBF219E081800506393 /* PBXContainerItemProxy */;
+		};
+		0F305ECB219E081800506393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F305EA9219E081700506393 /* ChoppMe */;
+			targetProxy = 0F305ECA219E081800506393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F305EB1219E081700506393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F305EB2219E081700506393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F305EB6219E081800506393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F305EB7219E081800506393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F305ED0219E081800506393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F305ED1219E081800506393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F305ED3219E081800506393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C18ACE99B21D94ACBD400B /* Pods-ChoppMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX8CEBC3DF;
+				INFOPLIST_FILE = ChoppMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigosousa.ChoppMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0F305ED4219E081800506393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C2C683AE6C392900639639 /* Pods-ChoppMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX8CEBC3DF;
+				INFOPLIST_FILE = ChoppMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigosousa.ChoppMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		0F305ED6219E081800506393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F22F00F0371B1E04828A638 /* Pods-ChoppMeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX8CEBC3DF;
+				INFOPLIST_FILE = ChoppMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigosousa.ChoppMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoppMe.app/ChoppMe";
+			};
+			name = Debug;
+		};
+		0F305ED7219E081800506393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749F52BDCF8FC4DC19ABC308 /* Pods-ChoppMeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX8CEBC3DF;
+				INFOPLIST_FILE = ChoppMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigosousa.ChoppMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoppMe.app/ChoppMe";
+			};
+			name = Release;
+		};
+		0F305ED9219E081800506393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B51FE8110F23E76E0FA72B /* Pods-ChoppMeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX8CEBC3DF;
+				INFOPLIST_FILE = ChoppMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigosousa.ChoppMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChoppMe;
+			};
+			name = Debug;
+		};
+		0F305EDA219E081800506393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1B0DE415E5950DCFDAA68E /* Pods-ChoppMeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX8CEBC3DF;
+				INFOPLIST_FILE = ChoppMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigosousa.ChoppMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChoppMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F305EA5219E081700506393 /* Build configuration list for PBXProject "ChoppMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F305ED0219E081800506393 /* Debug */,
+				0F305ED1219E081800506393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F305ED2219E081800506393 /* Build configuration list for PBXNativeTarget "ChoppMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F305ED3219E081800506393 /* Debug */,
+				0F305ED4219E081800506393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F305ED5219E081800506393 /* Build configuration list for PBXNativeTarget "ChoppMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F305ED6219E081800506393 /* Debug */,
+				0F305ED7219E081800506393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F305ED8219E081800506393 /* Build configuration list for PBXNativeTarget "ChoppMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F305ED9219E081800506393 /* Debug */,
+				0F305EDA219E081800506393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F305EA2219E081700506393 /* Project object */;
+}
